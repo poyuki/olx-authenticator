@@ -1,0 +1,26 @@
+{
+  "name": "poyuki/olx-authenticator",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "poyuk",
+      "email": "poyuki9@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/poyuki/olx-ua-api-sdk.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OlxAuthenticator\\": "src/"
+    }
+  },
+  "require": {
+    "poyuki/olx-ua-api-sdk": "dev-master"
+  }
+}
