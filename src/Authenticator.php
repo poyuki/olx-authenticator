@@ -35,6 +35,6 @@ class Authenticator
             'client_secret' => $this->clientSecret,
         ]);
 
-        return $api->getUser()->getOAuthLink($this->redirectUrl, $this->clientId);
+        return $api->getUser()->getOAuthLink($this->redirectUrl, (string) $this->clientId);
     }
 }
