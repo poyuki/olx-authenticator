@@ -21,13 +21,14 @@ class Authenticator
     /** @var ApiInterface */
     private $api;
 
-    public function __construct($clientId, string $clientSecret, string $redirectUrl)
+    public function __construct($clientId, string $clientSecret, string $redirectUrl, string $refreshToken = null)
     {
         $this->clientId = $clientId;
         $this->redirectUrl = $redirectUrl;
         $this->api = $api = OlxFactory::create(OlxFactory::UA, [
             'client_id' => $this->clientId,
             'client_secret' => $clientSecret,
+            'refresh_token' => $refreshToken
         ]);
     }
 
