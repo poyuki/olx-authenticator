@@ -335,7 +335,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/poyuki/olx-ua-api-sdk.git",
-                "reference": "b823cc5c6c0065379b9181626960b6333f631a81"
+                "reference": "19e7ca55dfd9ed12d82b8b0b23599fe22db9e458"
             },
             "require": {
                 "ext-json": "*",
@@ -364,7 +364,7 @@
                 "olx",
                 "olx ua"
             ],
-            "time": "2021-12-05T14:07:00+00:00"
+            "time": "2021-12-05T16:04:22+00:00"
         },
         {
             "name": "psr/http-client",

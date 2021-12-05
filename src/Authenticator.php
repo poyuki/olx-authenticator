@@ -25,7 +25,7 @@ class Authenticator
     {
         $this->clientId = $clientId;
         $this->redirectUrl = $redirectUrl;
-        $this->api = $api = OlxFactory::create(OlxFactory::UA, [
+        $this->api = OlxFactory::create(OlxFactory::UA, [
             'client_id' => $this->clientId,
             'client_secret' => $clientSecret,
             'refresh_token' => $refreshToken
